@@ -13,7 +13,6 @@ function Home() {
       height="100vh"
       overflow="hidden"
     >
-      {/* Header Section */}
       <Box
         sx={{
           display: "flex",
@@ -32,7 +31,6 @@ function Home() {
         </IconButton>
       </Box>
 
-      {/* Main Content */}
       <Box display="flex" width="100%" height="100%" overflow="hidden">
         <Box
           sx={{

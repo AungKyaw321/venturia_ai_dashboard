@@ -47,7 +47,6 @@ function MyTasks() {
       height="100vh"
       overflow="hidden"
     >
-      {/* Header Section */}
       <Box
         sx={{
           display: "flex",
@@ -66,7 +65,6 @@ function MyTasks() {
         </IconButton>
       </Box>
 
-      {/* Main Content */}
       <Box
         sx={{
           padding: "20px",

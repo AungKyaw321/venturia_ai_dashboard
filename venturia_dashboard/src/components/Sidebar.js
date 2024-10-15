@@ -24,7 +24,6 @@ function Sidebar() {
         padding: "20px",
       }}
     >
-      {/* User Info */}
       <Box display="flex" alignItems="center" mb={2}>
         <Avatar
           src="profile-image.jpg"
@@ -39,7 +38,6 @@ function Sidebar() {
         </Box>
       </Box>
 
-      {/* Stats */}
       <Box display="flex" justifyContent="space-between" my={2}>
         <Box textAlign="center" sx={{ mr: 2 }}>
           {" "}
@@ -59,7 +57,6 @@ function Sidebar() {
         </Box>
       </Box>
 
-      {/* Navigation List */}
       <List>
         <ListItem component={Link} to="/">
           <ListItemIcon>

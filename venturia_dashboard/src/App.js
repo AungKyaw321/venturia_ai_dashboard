@@ -10,10 +10,8 @@ function App() {
   return (
     <Router>
       <Box display="flex" height="100vh" width="100vw" overflow="hidden">
-        {/* Sidebar */}
         <Sidebar />
 
-        {/* Main Content */}
         <Box sx={{ flexGrow: 1, width: "100%", overflowY: "auto" }}>
           <Routes>
             <Route path="/" element={<Home />} />

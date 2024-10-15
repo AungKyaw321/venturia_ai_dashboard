@@ -18,7 +18,6 @@ function Settings() {
       height="100vh"
       overflow="hidden"
     >
-      {/* Header Section */}
       <Box
         sx={{
           display: "flex",
@@ -37,7 +36,6 @@ function Settings() {
         </IconButton>
       </Box>
 
-      {/* Main Content */}
       <Box
         display="flex"
         justifyContent="center"
@@ -55,7 +53,6 @@ function Settings() {
             textAlign: "center", // Center text in the box
           }}
         >
-          {/* Avatar and Change Button */}
           <Avatar
             sx={{ width: 100, height: 100, margin: "0 auto" }}
             src="profile-image.jpg"
@@ -63,7 +60,6 @@ function Settings() {
           />
           <Button sx={{ marginTop: "10px" }}>Change</Button>
 
-          {/* Form Fields */}
           <Box mt={4}>
             <Typography align="left" fontWeight="bold" mb={1}>
               Name
@@ -99,7 +95,6 @@ function Settings() {
             />
           </Box>
 
-          {/* Buttons */}
           <Button
             variant="contained"
             fullWidth
